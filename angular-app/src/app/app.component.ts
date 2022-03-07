@@ -16,7 +16,7 @@ export class AppComponent{
 
   ){
 
-    this.salesService.getHelloWorld().subscribe((data)=>{
+    this.salesService.get_time_spent_by_day().subscribe((data)=>{
       console.log(data);
     })
 
